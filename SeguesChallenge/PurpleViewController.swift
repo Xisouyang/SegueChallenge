@@ -16,4 +16,8 @@ class PurpleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func goBackToOneButtonTapped(_ sender: Any) {
+        performSegue(withIdentifier: "unwindSegueToVC1", sender: self)
+    }
+    
 }

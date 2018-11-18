@@ -23,6 +23,13 @@ class BlueViewController: UIViewController {
         }
     }
     
+    @IBAction func goBackButtonTapped(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
+    
+    
 
     /*
     // MARK: - Navigation

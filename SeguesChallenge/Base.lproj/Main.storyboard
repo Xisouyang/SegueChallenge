@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eay-qG-sJX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ov2-7m-F8q">
-                                <rect key="frame" x="29.5" y="132" width="316.5" height="403"/>
+                                <rect key="frame" x="-112.5" y="0.0" width="600" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Embed me in a NavigationController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T31-Ud-tTa">
-                                        <rect key="frame" x="0.0" y="0.0" width="316.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="qWM-mK-pQ3"/>
                                         </constraints>
@@ -29,14 +29,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_Panda_394576" translatesAutoresizingMaskIntoConstraints="NO" id="lYf-UK-hGU">
-                                        <rect key="frame" x="0.0" y="70" width="316.5" height="263"/>
+                                        <rect key="frame" x="0.0" y="70" width="600" height="527"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2Y-Ue-Gx9">
-                                        <rect key="frame" x="0.0" y="353" width="316.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="617" width="600" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Isd-7o-N1M"/>
                                         </constraints>
                                         <state key="normal" title="NEXT"/>
+                                        <connections>
+                                            <segue destination="JFb-O4-2lc" kind="show" identifier="goToPurpleSegue" id="5DM-xy-ltl"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -56,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="959" y="134"/>
+            <point key="canvasLocation" x="1930" y="128"/>
         </scene>
         <!--Purple View Controller-->
         <scene sceneID="qhj-w0-Kxd">
@@ -67,10 +70,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HB6-wN-ouo">
-                                <rect key="frame" x="36" y="75.5" width="303" height="516"/>
+                                <rect key="frame" x="-115.5" y="-62.5" width="606" height="792"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Present me with &quot;show&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ML-1H-v1X">
-                                        <rect key="frame" x="0.0" y="0.0" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="606" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="T3x-24-ZrF"/>
                                         </constraints>
@@ -79,10 +82,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_Peacock_394556" translatesAutoresizingMaskIntoConstraints="NO" id="b9c-Bu-baT">
-                                        <rect key="frame" x="0.0" y="60" width="303" height="276"/>
+                                        <rect key="frame" x="0.0" y="60" width="606" height="552"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoA-gE-zvU">
-                                        <rect key="frame" x="0.0" y="346" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="622" width="606" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="2c0-4X-PPL"/>
                                         </constraints>
@@ -90,20 +93,23 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Dvd-PJ-BnB" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="lOS-4D-OcC"/>
+                                            <action selector="goBackToOneButtonTapped:" destination="JFb-O4-2lc" eventType="touchUpInside" id="tCM-9J-VUf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ib-AX-sxq">
-                                        <rect key="frame" x="0.0" y="406" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="682" width="606" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gky-ip-UlT"/>
                                         </constraints>
                                         <state key="normal" title="NEXT">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="QjG-6z-6EM" kind="show" id="3GO-6z-JUX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUu-Tc-FA3">
-                                        <rect key="frame" x="0.0" y="466" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="742" width="606" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Rnr-Cb-3W0"/>
                                         </constraints>
@@ -111,7 +117,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="nextVC:" destination="JFb-O4-2lc" eventType="touchUpInside" id="3ki-6Y-UrG"/>
+                                            <segue destination="QjG-6z-6EM" kind="presentation" id="GTo-W0-PYz"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -133,11 +139,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="N8w-tf-8Je"/>
                     </view>
+                    <connections>
+                        <segue destination="Dvd-PJ-BnB" kind="unwind" identifier="unwindSegueToVC1" unwindAction="unwindToVC1WithSegue:" id="0rd-OQ-BBq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWQ-6E-jcO" sceneMemberID="firstResponder"/>
                 <exit id="Dvd-PJ-BnB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="133.5832083958021"/>
+            <point key="canvasLocation" x="2681" y="127"/>
         </scene>
         <!--Blue View Controller-->
         <scene sceneID="Ikh-CL-0ru">
@@ -148,10 +157,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1KO-ZV-OPO">
-                                <rect key="frame" x="46" y="89.5" width="283" height="488"/>
+                                <rect key="frame" x="-96" y="-50" width="567" height="767"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Present me modally" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L53-uc-UIT">
-                                        <rect key="frame" x="0.0" y="0.0" width="283" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="567" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="2Nl-2F-1hP"/>
                                         </constraints>
@@ -160,10 +169,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_Penguin_394825" translatesAutoresizingMaskIntoConstraints="NO" id="IBo-zt-H4v">
-                                        <rect key="frame" x="0.0" y="70" width="283" height="278"/>
+                                        <rect key="frame" x="0.0" y="70" width="567" height="557"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I received this message:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgX-n4-Nko">
-                                        <rect key="frame" x="0.0" y="368" width="283" height="50"/>
+                                        <rect key="frame" x="0.0" y="647" width="567" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="VIg-Kb-Uga"/>
                                         </constraints>
@@ -172,7 +181,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rad-Nk-gca">
-                                        <rect key="frame" x="0.0" y="438" width="283" height="50"/>
+                                        <rect key="frame" x="0.0" y="717" width="567" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="oRI-t6-KF0"/>
                                         </constraints>
@@ -181,6 +190,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
+                                            <action selector="goBackButtonTapped:" destination="QjG-6z-6EM" eventType="touchUpInside" id="7Ys-LO-GRI"/>
                                             <segue destination="FXQ-OY-hD4" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="Act-tU-8kB"/>
                                         </connections>
                                     </button>
@@ -209,12 +219,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Dy-Tz-cun" sceneMemberID="firstResponder"/>
                 <exit id="FXQ-OY-hD4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2471.1999999999998" y="133.5832083958021"/>
+            <point key="canvasLocation" x="3410.4000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="m7o-Ll-Rc0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eay-qG-sJX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Af8-6q-Mw3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mtA-X5-IyK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0sq-Cv-ScY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.60000000000002" y="133.5832083958021"/>
         </scene>
     </scenes>
     <resources>
-        <image name="noun_Panda_394576" width="300" height="263"/>
-        <image name="noun_Peacock_394556" width="303" height="276"/>
-        <image name="noun_Penguin_394825" width="283" height="278"/>
+        <image name="noun_Panda_394576" width="600" height="527"/>
+        <image name="noun_Peacock_394556" width="606" height="552"/>
+        <image name="noun_Penguin_394825" width="567" height="557"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3GO-6z-JUX"/>
+    </inferredMetricsTieBreakers>
 </document>
